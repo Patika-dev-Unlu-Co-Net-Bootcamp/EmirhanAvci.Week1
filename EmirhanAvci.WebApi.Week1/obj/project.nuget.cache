@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sctEQiZmKRlrB2Fw7X04nPLLksEAHyZlvfHjdBI3dSuNr+W22MC0iFgqFOiwE/8Njt9j/4lL5yBsY0Kp6FlKGA==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\PatikaDers\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bdk11\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Bdk11\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Bdk11\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Bdk11\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Bdk11\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Bdk11\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
