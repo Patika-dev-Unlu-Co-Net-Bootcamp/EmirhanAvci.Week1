@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sctEQiZmKRlrB2Fw7X04nPLLksEAHyZlvfHjdBI3dSuNr+W22MC0iFgqFOiwE/8Njt9j/4lL5yBsY0Kp6FlKGA==",
+  "dgSpecHash": "U+UfdDlXjRIRw4VXnMPcuyc6KCAca9RVWd6YviFBa701i8P/u6M28m5V/JQCe2Hsl0u3xqolVpjtDj5IkSfc5g==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\PatikaDers\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1.csproj",
+  "projectFilePath": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\githubCloneRepo\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bdk11\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Bdk11\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -200,11 +200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\PatikaDers\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1.csproj",
+      "projectUniqueName": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\githubCloneRepo\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1.csproj",
       "projectName": "EmirhanAvci.WebApi.Week1",
-      "projectPath": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\PatikaDers\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1.csproj",
+      "projectPath": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\githubCloneRepo\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1.csproj",
       "packagesPath": "C:\\Users\\Bdk11\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\PatikaDers\\EmirhanAvci.WebApi.Week1\\EmirhanAvci.WebApi.Week1\\obj\\",
+      "outputPath": "D:\\Users\\Bdk11\\Desktop\\Emir\\bOT STRATEGİES\\githubCloneRepo\\EmirhanAvci.WebApi.Week1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

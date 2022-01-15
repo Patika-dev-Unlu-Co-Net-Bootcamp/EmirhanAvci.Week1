@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Threading.Tasks;
 
 namespace EmirhanAvci.WebApi.Week1.Controllers
@@ -16,10 +15,23 @@ namespace EmirhanAvci.WebApi.Week1.Controllers
     [ApiController]
     public class CoinController : ControllerBase
     {
-        [HttpGet("GetAll")]
+        [HttpGet("GetAllForAdmins")]
         public IActionResult Get()
         {
             return Ok(CoinDataListGenerator.coinsList);
+        }
+
+        #region VisibilityStatus
+        /*
+            Veri tabanlarında silme işlemleri gerçekleşmez ancak kullanıcıların görüntülemesini istemediğimiz 
+            dataları gizleyebiliriz. Bu yüzden VisibilityStatus adında bir property tanımlar ve default true
+            veririz.
+         */
+        #endregion
+        [HttpGet("GetAllForUsers")]
+        public IActionResult GetForUnauthorizedUsers()
+        {
+            return Ok(CoinDataListGenerator.coinsList.Where(w => w.VisibilityStatus == true));
         }
         [HttpGet("GetById/{id}")]
         public IActionResult GetById(int id)
@@ -133,13 +145,24 @@ namespace EmirhanAvci.WebApi.Week1.Controllers
             if (numericControlObject.Item1 != 0 && numericControlObject.Item2 != -1)
             {
                 var deletedCoin = CoinDataListGenerator.coinsList.FirstOrDefault(f => f.Id == numericControlObject.Item1);
-                deletedCoin.
+                deletedCoin.VisibilityStatus = false;
                 return Ok();
             }
             else
             {
                 return BadRequest();
             }
+        }
+        [HttpGet("GetAllByCategory")]
+        public IActionResult GetSortByCategory()
+        {
+            return Ok(CoinDataListGenerator.coinsList.OrderBy(o => o.CategoryId).ToList());
+        }
+
+        [HttpGet("GetAllByNetwork")]
+        public IActionResult GetSoryByNetwork()
+        {
+            return Ok(CoinDataListGenerator.coinsList.OrderBy(o => o.NetworkId).ToList());
         }
     }
 }
