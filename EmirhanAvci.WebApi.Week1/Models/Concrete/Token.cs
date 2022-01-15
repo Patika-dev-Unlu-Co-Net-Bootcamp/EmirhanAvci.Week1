@@ -16,6 +16,7 @@ namespace EmirhanAvci.WebApi.Week1.Models.Concrete
         public decimal TokenTotalSupply { get; set; }
         public decimal TokenCap { get; set; }
         public DateTime TokenListDate { get; set; }
+        public bool VisibilityStatus { get; set; } = true;
 
     }
 }
